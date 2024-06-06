@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Classifier</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <h1>Draw Here</h1>
+            <canvas id="drawing"></canvas>
+            <div class="btns">
+                <button id="clear-btn" onclick="clear_canvas()">Clear</button>
+                <button id="sub-btn" onclick="predict()">Predict</button>
+            </div>
+        </div>
+        <canvas id="resizer"></canvas>
+        <div class="output">
+            <h1>Predictions</h1>
+            <canvas id="prediction"></canvas>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
