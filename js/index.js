@@ -23,7 +23,7 @@ const mouse = {
     x : undefined,
     y : undefined
 };
-let prediction = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
 let down = false;
 let r = d_canvas.getBoundingClientRect();
 
@@ -61,8 +61,7 @@ function clear_canvas() {
     d_ctx.clearRect(0, 0, d_w, d_h);
     d_ctx.fillStyle = "#000000";
     d_ctx.fillRect(0, 0, d_w, d_h);
-    d_ctx.fillStyle = "#ffffff";
-    
+    d_ctx.fillStyle = "#ffffff"; 
 }
 
 function predict() {
