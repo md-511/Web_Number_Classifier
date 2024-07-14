@@ -1,0 +1,1 @@
+Users can draw in a designated area and then makes a request to the server which process the image drawn by the user and tells which number did the user draw. The server has been setup using python flask and the classifier model is trained using tensorflow
