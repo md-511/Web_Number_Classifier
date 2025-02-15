@@ -1,1 +1,5 @@
-Users can draw in a designated area and then makes a request to the server which process the image drawn by the user and tells which number did the user draw. The server has been setup using python flask and the classifier model is trained using tensorflow
+# Web Number Classifier
+
+The server is setup using python.
+User draws in an area and attaches drawing information in the request body.
+The server then uses a pre-trained model (trained using python on MNIST dataset) to generate the predictions which are then sent in as a response.
